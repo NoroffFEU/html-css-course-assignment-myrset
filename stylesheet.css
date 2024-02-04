@@ -80,14 +80,12 @@ nav {
 
 .signup {
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 180px;
-    background-color: #3F8760;
-    color: #fff;
-    border-radius: 14px;
-    margin: 0 50px 50px 0;
+          
+    border: 0;
+    border-radius: 34px;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
     
   
 }
@@ -171,7 +169,8 @@ footer {
 .right-foot {
     display: table-column;
     p { font-size: 18px;
-        color: white;}    
+        color: white
+        ;}    
 }
 
 .footer-logo{
@@ -190,8 +189,8 @@ footer {
 }
 
 .cta-green {
-    background-color: #3F8760;
-    color: #fff;
+    background-color: #09AD3D
+    
 }
 .cta-orange {
     background-color:#FA9F42;
@@ -211,6 +210,7 @@ footer {
     padding: 10px 20px 10px 20px;
     cursor: pointer;
     box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
+   
     
 }
 
@@ -263,6 +263,19 @@ footer {
 
 }
 
+.checkout {
+    display: flex;
+    background-color: #fff;
+    height: 175px;
+    width: 1126px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-checkout {
+    width: 70px;
+    height: 112px;
+}
 .line {
     width: 180px;
     border-bottom: 2px solid black;
@@ -321,4 +334,13 @@ footer {
         
         
 
+    }
+
+    .view {
+
+        border: 0;
+        border-radius: 34px;
+        padding: 10px 20px 10px 20px;
+        cursor: pointer;
+        box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
     }
