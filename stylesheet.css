@@ -250,10 +250,17 @@ footer {
     position: absolute
 }
 
-.details
 
+.main-details {
+    min-height: 100vh;
+   
+
+}
+.details
 {
     display: flex;
+    margin-left: 223px;
+    
 }
 
 .rainjacket_image {
@@ -301,17 +308,18 @@ footer {
     display: table-column;
     font: 18px;
     font-family: Saira Condensed;
-    width: 200px;
+    
 }
 
 .sizes {
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
-    width: 180px;
+    
+    
     background-color: #D9D9D9;
+    width: 20px;
+    height: 20px;
+    text-align: center;
     
-    
+       
     
     }
 
@@ -345,4 +353,30 @@ footer {
         padding: 10px 20px 10px 20px;
         cursor: pointer;
         box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
+    }
+
+    .section-jacket {
+        display: flex;
+        background-color: #C0C0C0;
+        width: 610px;
+        margin-left: 223px;
+    }
+
+    .section-review {
+        display: flex;
+        list-style: none;
+        justify-content: flex-start;
+        width: 200px;
+        padding: 5px;
+        
+        
+
+    }
+
+    .size-box {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        
+ 
     }
