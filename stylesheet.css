@@ -241,6 +241,8 @@ footer {
 
    }
 
+
+   
 .body-jackets {
     background-color: #E7E7E7
 }
@@ -382,3 +384,57 @@ footer {
         
  
     }
+
+    .checkout-list {
+        display: flex;
+        list-style: none;
+        width: 400px;
+        justify-content: space-around;
+    }
+
+    .checkout-jacket {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+     
+    }
+
+    .button {
+        display: block;
+        width: 140px;
+        height: 30px;
+        background: #3F8760;
+        padding: 3px;
+        text-align: center;
+        border-radius: 14px 14px 14px 14px;
+        color: white;
+    }
+    
+    .success-box {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+   .success {
+    display: flex;
+    background-color: #3F8760;
+    width: 730px;
+    height: 88px;
+    top: 158px;
+    left: 710px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    color: #fff;
+       }
+
+.success-cart {
+    display: flex;
+    width: 800px;
+    height: 142px;
+    top: 301px;
+    left: 179px;
+    background-color: #fff;
+
+}
