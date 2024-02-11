@@ -50,6 +50,7 @@ h1 {
 
 .main-details {
     min-height: 100vh;
+    
    
 
 }
@@ -57,9 +58,11 @@ h1 {
 {
     display: flex;
     margin-left: 223px;
+  
     
-    
-}
+       
+    }
+
 
 .rainjacket_image {
 
@@ -73,10 +76,11 @@ h1 {
 .checkout {
     display: flex;
     background-color: #fff;
-    height: 175px;
-    width: 1126px;
+    height: 150px;
+    width: 80%;
     justify-content: space-between;
     align-items: center;
+    margin-left: 10%;
 }
 
 .image-checkout {
@@ -89,6 +93,11 @@ h1 {
     border-bottom: 2px solid black;
     position: absolute;
 
+    }
+
+    .checkout-line {
+        width: 99%;
+        border-bottom: 3px solid black;
     }
 
 .sizes {
@@ -125,8 +134,9 @@ h1 {
     .section-jacket {
         display: flex;
         background-color: #C0C0C0;
-        width: 610px;
+        width: 50%;
         margin-left: 223px;
+        align-items: center;
     
     }
 
@@ -136,6 +146,7 @@ h1 {
         justify-content: flex-start;
         width: 200px;
         padding: 5px;
+        align-items: center;
         
         
 
@@ -186,12 +197,12 @@ h1 {
 
 .success-cart {
     display: flex;
-    width: 800px;
+    width: 80%;
     height: 142px;
     top: 301px;
     left: 179px;
     background-color: #fff;
-    justify-content: space-around;
+    justify-content: center;
 
 }
 
@@ -287,6 +298,13 @@ nav a:hover {
     color: white;
     
 }
+
+.solid-line {
+    display: none;
+    
+    /* Adjust color and thickness as needed */
+  }
+
 /*Body and main */
 
 .main-box {
@@ -300,6 +318,10 @@ nav a:hover {
 a {
     cursor: pointer;
     text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    
 }
 
 
@@ -398,6 +420,13 @@ body {
 
 /* Styling jackets */
 
+
+/* Styling checkouts */
+
+.checkout-info {
+    width: 50%;
+}
+
 /* Footer */
 
 footer {
@@ -470,7 +499,7 @@ footer {
 .button {
     display: block;
     width: 140px;
-    height: 30px;
+    height: 37px;
     padding: 3px;
     text-align: center;
     border-radius: 14px 14px 14px 14px;
@@ -490,6 +519,31 @@ footer {
        
 }
 
+.button-blue {
+
+    display: block;
+    width: 30px;
+    height: 30px;
+    padding: 15px 15px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
+    background-color: #131660;
+    border: none;
+              
+}
+
+.button-orange {
+    display: block;
+    width: 30px;
+    height: 30px;
+    padding: 15px 15px;
+    text-align: center;
+    border: 50%;
+    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
+    background-color: #C0C6D6;
+    border: none;
+}
 
 .view {
 
@@ -519,5 +573,92 @@ footer {
 
 /* Hamburger */
 
+.close-icon {
+    color:#fff;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    z-index: 11;
+}
+
+.hamburger-navigation {
+    display: flex;
+    flex-direction: column;
+    z-index: 11;
+    list-style: none;
+    justify-content: space-between;
+    
+    a {
+        color: #fff;
+    }
+    
+}
+
+.hamburger-nav {
+    height: 30vh;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: #093A3E;
+    z-index: 4;
+    justify-content: center;
+    
+    
+    
+}
+.solid-line {
+    display: flex;
+    z-index: 5;
+    height: 3px;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 100%;
+}
+ .hamburger-user-box {
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
 
 
+ }
+
+.hamburger {
+    z-index: 5;
+    display: none;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 40px;
+    width: 60px;
+    
+
+}
+
+@media screen and (max-width: 750px) {
+    .hamburger {
+        display: flex;
+
+        
+    }
+
+    .mobile-details-box {
+        display: flex ;
+        margin: auto;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 80%;
+    }
+
+    .desktop-text {
+        display:none;
+    }
+    
+}
+     

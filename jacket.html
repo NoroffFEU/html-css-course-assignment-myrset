@@ -3,10 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Quality sportswear, Rainy days sportswear"
-    />
+    <meta name="description" content="Style for years" />
     <link rel="stylesheet" href="stylesheet.css" />
     <link
       rel="icon"
@@ -39,7 +36,26 @@
           </ul>
         </div>
         <div class="nav-user-box">
-          <button class="signup view-button">Login/Signup</button>
+          <button class="signup view">Login/Signup</button>
+          <a href="checkout.html">
+            <i class="material-icons shopping-icon">shopping_cart</i></a
+          >
+        </div>
+        <div class="hamburger">
+          <div class="solid-line"></div>
+          <div class="solid-line"></div>
+          <div class="solid-line"></div>
+        </div>
+      </nav>
+      <nav class="hamburger-nav">
+        <i class="material-icons close-icon">close </i>
+        <ul class="hamburger-navigation">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="jackets.html">Jackets</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+        <div class="hamburger-user-box">
+          <button class="signup view">Login/Signup</button>
           <a href="checkout.html">
             <i class="material-icons shopping-icon">shopping_cart</i></a
           >
@@ -49,7 +65,8 @@
     <main class="main-details">
       <h1>1st. Watch - Flayer Rainjacket</h1>
 
-      <section class="details">
+      <div></div>
+      <section class="details mobile-details-box">
         <div class="left-flex">
           <img
             class="rainjacket_image"
@@ -69,7 +86,7 @@
 
         <div class="right-flex">
           <br />
-          <div><p>1st. Watch Flayer Rainjacket</p></div>
+          <div><h4>1st. Watch Flayer Rainjacket</h4></div>
 
           <div class="line"></div>
 
@@ -88,12 +105,12 @@
             <br />
             <br />
 
-            <button class="cta_add">Add to cart</button>
+            <div class="button cta-green"><a href="">Add to cart</a></div>
           </div>
         </div>
       </section>
-      <article class="section-jacket">
-        <section>
+      <div class="section-jacket mobile-details-box">
+        <div>
           <div>
             <ul class="section-review">
               <li><a href="#Description">Description</a></li>
@@ -112,8 +129,8 @@
               grass.
             </p>
           </div>
-        </section>
-      </article>
+        </div>
+      </div>
     </main>
     <footer>
       <div class="footer-content">
@@ -147,5 +164,6 @@
         </div>
       </div>
     </footer>
+    <script src="script/main.js"></script>
   </body>
 </html>
