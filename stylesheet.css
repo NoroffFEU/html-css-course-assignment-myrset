@@ -15,7 +15,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin: 132px;
+    margin: 100px;
     height: 175px;
 }
 
@@ -36,14 +36,7 @@ h1 {
     align-items: center;
     height: 90px;
 }
-
-
-
-
-
-
-
-   
+  
 .body-jackets {
     background-color: #E7E7E7
 }
@@ -90,15 +83,13 @@ h1 {
     width: 70px;
     height: 112px;
 }
+
 .line {
     width: 180px;
     border-bottom: 2px solid black;
     position: absolute;
 
     }
-
-
-
 
 .sizes {
     
@@ -249,6 +240,9 @@ nav {
     list-style: none;
     justify-content: space-between;
     width: 200px;
+    a {
+        color: #fff;
+    }
     
 
 }
@@ -305,7 +299,6 @@ nav a:hover {
 
 a {
     cursor: pointer;
-    color: #fff;
     text-decoration: none;
 }
 
@@ -324,7 +317,7 @@ body {
 }
 
 .message {
-    width: 65%;  
+    width: 90%;  
     font-family: Saira Condensed;
     font-size: 18px;
     font-weight: 700;
@@ -384,6 +377,24 @@ body {
     
 }
 
+.about-box {
+    display: flex;
+    width: 90%;
+    background-color: #fff;
+    border-radius: 44px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.about-text {
+    display: flex;
+    width: 70%;
+    height: 90%;
+    font-size: 18px;
+    
+}
+
 
 /* Styling jackets */
 
@@ -433,7 +444,7 @@ footer {
 }
 .cta-orange {
     background-color:#FA9F42;
-    color: grey;
+    color: black;
 }
 
 .cta_add {
@@ -444,7 +455,7 @@ footer {
     
 }
 
-.cta-white
+
 
 .view-button {
     
@@ -463,8 +474,8 @@ footer {
     padding: 3px;
     text-align: center;
     border-radius: 14px 14px 14px 14px;
-    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25)
-       
+    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
+    color: black;
 }
 
 .button-jacket {
@@ -501,8 +512,12 @@ footer {
     .nav-navigation {
         display: none;
     }
+
+
   }
 
+
 /* Hamburger */
+
 
 
