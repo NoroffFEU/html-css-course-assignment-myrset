@@ -6,55 +6,17 @@
 }
 
 
-
-.image-body {
-    background-image: url(images/Nature-marita-kavelashvili-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-
-body {
-    font-family: "Saira Condensed";
-    
-
-}
-
-
-.logo {
-    width: 167px;
-    height: 89px;
-
-}
-
-.signup {
-
-          
-    border: 0;
-    border-radius: 34px;
-    padding: 10px 20px 10px 20px;
-    cursor: pointer;
-    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
-    background-color: #3F8760;
-    color: #fff;
-    
-  
-}
-
-
-
 .main-index {
     min-height: 100vh;
-
 }
 
 .center-index {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin: 132px;
+    height: 175px;
 }
 
 
@@ -75,52 +37,10 @@ h1 {
     height: 90px;
 }
 
-.shopping-icon {
-    color: white;
-     
-}
-
-a {
-    cursor: pointer;
-    color: white;
-    text-decoration: none;
-}
 
 
 
 
-.jackets-images {
-    width: 122px;
-    height: 148px;
-    flex-shrink: 0;
-    border-radius: 55px;
-}
-
-
-.jackets-box {
-    display: flex ;
-    margin: auto;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 80%;
-          
-    }
-
-.jacket-box {
-    display: flex;
-    flex-direction: column;
-    background-color: #fff;
-    border-radius: 0px;
-    width: 211px;
-    height: 273px;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    margin: 0px 20px 20px 0px;
-
-   }
 
 
    
@@ -144,6 +64,7 @@ a {
 {
     display: flex;
     margin-left: 223px;
+    
     
 }
 
@@ -176,24 +97,8 @@ a {
 
     }
 
-.cta_add {
-    width: 110px;
-    height: 56px;
-    background-color: #15C95D;
-    border-radius: 28px;
-    
-}
 
-.left-flex {
-    display: table-column
-}
 
-.right-flex {
-    display: table-column;
-    font: 18px;
-    font-family: Saira Condensed;
-    
-}
 
 .sizes {
     
@@ -225,15 +130,7 @@ a {
         
     }
 
-    .view {
-
-        border: 0;
-        border-radius: 34px;
-        padding: 10px 20px 10px 20px;
-        cursor: pointer;
-        box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
-    }
-
+    
     .section-jacket {
         display: flex;
         background-color: #C0C0C0;
@@ -303,10 +200,12 @@ a {
     top: 301px;
     left: 179px;
     background-color: #fff;
+    justify-content: space-around;
 
 }
 
 /* Navigation bar */
+
 
 
 nav {
@@ -340,6 +239,7 @@ nav {
     width: 400px;
     justify-content: space-between;
     margin: 0 0 0 15px;
+ 
 
 }
 
@@ -349,6 +249,7 @@ nav {
     list-style: none;
     justify-content: space-between;
     width: 200px;
+    
 
 }
 
@@ -356,6 +257,7 @@ nav {
     z-index: 5;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 150px;
 
 }
@@ -367,6 +269,30 @@ nav a:hover {
     text-decoration-color: #FA9F42;
 }
 
+
+
+.logo {
+    width: 167px;
+    height: 89px;
+
+}
+
+.signup {
+          
+    border: 0;
+    border-radius: 34px;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
+    background-color: #3F8760;
+    color: #fff;
+     
+}
+
+.shopping-icon {
+    color: white;
+    
+}
 /*Body and main */
 
 .main-box {
@@ -377,8 +303,87 @@ nav a:hover {
     height: 90px;
 }
 
+a {
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.image-body {
+    background-image: url(images/Nature-marita-kavelashvili-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+body {
+    font-family: "Saira Condensed";
+       
+}
+
+.message {
+    width: 65%;  
+    font-family: Saira Condensed;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+     
+}
+
+
 
 /* Styling jacket */
+
+
+.jackets-images {
+    width: 122px;
+    height: 148px;
+    flex-shrink: 0;
+    border-radius: 55px;
+}
+
+
+.jackets-box {
+    display: flex ;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80%;
+          
+    }
+
+.jacket-box {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 0px;
+    width: 211px;
+    height: 273px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 0px 20px 20px 0px;
+
+   }
+
+   .left-flex {
+    display: table-column
+}
+
+.right-flex {
+    display: table-column;
+    font: 18px;
+    font-family: Saira Condensed;
+    
+    
+}
+
 
 /* Styling jackets */
 
@@ -424,11 +429,22 @@ footer {
 
 .cta-green {
     background-color: #09AD3D
-    
+        
 }
 .cta-orange {
     background-color:#FA9F42;
+    color: grey;
 }
+
+.cta_add {
+    width: 110px;
+    height: 56px;
+    background-color: #15C95D;
+    border-radius: 28px;
+    
+}
+
+.cta-white
 
 .view-button {
     
@@ -444,12 +460,49 @@ footer {
     display: block;
     width: 140px;
     height: 30px;
-    background: #3F8760;
     padding: 3px;
     text-align: center;
     border-radius: 14px 14px 14px 14px;
-    color: white;
+    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25)
+       
+}
+
+.button-jacket {
+
+    display: block;
+    width: 80px;
+    height: 29px;
+    padding: 2px;
+    text-align: center;
+    border-radius: 14px 14px 14px 14px;
+    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25)
+       
 }
 
 
+.view {
+
+    border: 0;
+    border-radius: 34px;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+
+
 /* Media responsiveness */
+
+@media screen and (max-width: 750px) {
+   
+    .nav-user-box {
+      display: none;
+    }
+    .nav-navigation {
+        display: none;
+    }
+  }
+
+/* Hamburger */
+
+
