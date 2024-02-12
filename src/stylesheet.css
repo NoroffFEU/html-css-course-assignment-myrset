@@ -171,11 +171,15 @@
              
     }
 
-   
+   .font-success {
+    font-size: 21px;
+    font-weight: 200;
+   }
     
     .success-box {
         display: flex;
-        justify-content: flex-end;
+        justify-content: center
+
     }
 
    .success {
@@ -251,7 +255,6 @@ nav {
         color: #fff;
     }
   
-
 }
 
 .nav-user-box {
@@ -265,7 +268,7 @@ nav {
 
 nav a:hover {
     text-decoration: underline;
-    text-decoration-line: bold;
+    
     text-decoration-thickness: 2px;
     text-decoration-color: #FA9F42;
 }
@@ -322,7 +325,7 @@ a {
 
 
 .image-body {
-    background-image: url(images/Nature-marita-kavelashvili-unsplash.jpg);
+    background-image: url(../images/Nature-marita-kavelashvili-unsplash.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -480,8 +483,8 @@ footer {
 .right-foot {
     display: table-column;
     p { font-size: 18px;
-        color: white
-        ;}    
+        color: white;
+        }    
 }
 
 .footer-logo{
